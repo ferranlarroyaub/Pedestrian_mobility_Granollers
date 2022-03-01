@@ -16,20 +16,20 @@
   
       3.1 - Mapa de visualització de les trajectòries (en forma de línia contínua).
       
-      5.2 - Mapa de calor de visualització de les trajectòries. És colors més intensos volen dir que allà hi ha més localitzacions GPS. 
+      3.2 - Mapa de calor de visualització de les trajectòries. És colors més intensos volen dir que allà hi ha més localitzacions GPS. 
       
-      7.3 - Mapa de calor depenent de les velocitats. Mapa de calor de les trajectòries, pero utilitzant la velocitat per la intensitat de la calor, aquelles zones on la                     velocitat és més elevada, són més intenses.
+      3.3 - Mapa de calor depenent de les velocitats. Mapa de calor de les trajectòries, pero utilitzant la velocitat per la intensitat de la calor, aquelles zones on la                     velocitat és més elevada, són més intenses.
       
-      9.4 - Mapa de calor TimeLapse. És poden recrear els mapes de calors anteriors en format vídeo (time-lapse). És a dir, com evoluciona el mapa de calor amb el temps. És útil             quan tenim diverses trajectòries que s'estan realitzant simultàneament (el cas del dia de la festa). D'aquesta manera es pot veure en els intervals de temps                     desitjats (per exemple cada minut) com evoluciona el mapa de calor de totes les localitzacions GPS.
+      3.4 - Mapa de calor TimeLapse. És poden recrear els mapes de calors anteriors en format vídeo (time-lapse). És a dir, com evoluciona el mapa de calor amb el temps. És útil             quan tenim diverses trajectòries que s'estan realitzant simultàneament (el cas del dia de la festa). D'aquesta manera es pot veure en els intervals de temps                     desitjats (per exemple cada minut) com evoluciona el mapa de calor de totes les localitzacions GPS.
      
      
   4. Amb l'OpenStreetMaps, realitzem les següents visualitzacions en mapes:
   
       4.1 - Visualització de les trajèctories en punts o en forma de línia (en Folium no hem aconseguit veure-ho per punts separats).
       
-      6.2 - Mapa de calor (com 3.2 i 3.3) però en aquest cas no és de manera interactiva (amb zoom), sinó estàtica i per punts.
+      4.2 - Mapa de calor (com 3.2 i 3.3) però en aquest cas no és de manera interactiva (amb zoom), sinó estàtica i per punts.
       
-      8.3 - Video animació en .mp4 de les trajectories realitzades.
+      4.3 - Video animació en .mp4 de les trajectories realitzades.
 
 
   5. Criteri per considerar parades temporals. 
