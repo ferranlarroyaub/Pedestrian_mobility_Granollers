@@ -5,7 +5,9 @@
   1. Estadística bàsica:  Distància total, Temps total, velocitat mitja (+ std), radi de gir, turtuosita
  
   2. Dos eines de visualització de mapas: Folium i OpenStreetMaps Network.
+  
       2.1 - Folium. És una eina de visualització de trajectòries i mapes de calor en un mapa interactiu en format .html  Es útil perquè proporciona una visualització xula, neta             i detallada.
+     
       2.2 - OSMNX (Open Street Maps Networks). És un paquet de Python on podem importar les xarxes dels carrers d'una determinada zona. No proporciona una visualització dels                 carrers amb tant detall ni tant neta com els mapes de Folium. Però és més util per treballar amb les coordenades dins dels mapes.
      
   3. Amb el Folium, realitzem les següents visualitzacions en mapes:
