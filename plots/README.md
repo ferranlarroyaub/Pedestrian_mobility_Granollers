@@ -1,3 +1,5 @@
+# HTML VISUALISATIONS
+
 Utilitzar els següents enllaços per la visualització dels fitxers .html:
 
 1.  Trajectories estàtiques
