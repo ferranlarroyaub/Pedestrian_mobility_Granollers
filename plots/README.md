@@ -12,4 +12,4 @@ https://ferranlarroyaub.github.io/mobility_granollers/plots/granollers_folium_he
 https://ferranlarroyaub.github.io/mobility_granollers/plots/granollers_folium_heatmap_velocities.html
 
 4. Mapa de calor de les localitzacions depenent del temps (time-lapse).
-https://ferranlarroyaub.github.io/mobility_granollers/plots/granollers_folium_time.html
+https://ferranlarroyaub.github.io/mobility_granollers/plots/granollers_folium_heatmap_time.html
