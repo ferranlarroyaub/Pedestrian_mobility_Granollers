@@ -22,7 +22,7 @@ The data in the repository [1] consist of three folders containing the original 
       - desc: a text description of the element.
       - ele: timestamp in which the geo-location is recorded.
       - time: elevation in meters of the record.
-      - 
+  
   
 2. The folder "processed data" contains the processed and cleaned data (a .csv file for each participanting group, with the same file-name as the raw data but adding the suffix "processed" to each .csv file. The data is reduced to 2,981 GPS locations. 4 new columns are added corresponding to the time increment, the instantaneous velocity, the distance between GPS records and the label of each record as "stop" (if is stopped) or "flight" (if it is moving).
 
