@@ -14,13 +14,13 @@ The experiment took place on April, 2022. The groups from the school performed t
 The data in the repository [1] consist of three folders containing the original collected data, the processed data and the information about the stops to complete the missions.
 
   1. The folder "original data" contains the raw data collected in the experiment, composed of 18 gpx-files (corresponding to each participant group journey, less for one who did not record the track due to technical issues) and 3,532 GPS locations. The data-files contain 7 columns, which are:
-  - course: the direction in which the device is travelling, mesured in degrees and relative to the north.
-  - haccuracy: radius of uncertainty for the location, mesured in metres.
-  - speed: instantaneous velocity of the device (obtained by the Android/IOS servers) in metres/second.
-  - latitude: latitude coordinate in degrees
-  - longitude: longitude coordinate in degrees
-  - time: timestamp in which the geo-location is recorded
-  - nickname: anonymous nickname of the participant
+      - course: the direction in which the device is travelling, mesured in degrees and relative to the north.
+      - haccuracy: radius of uncertainty for the location, mesured in metres.
+      - speed: instantaneous velocity of the device (obtained by the Android/IOS servers) in metres/second.
+      - latitude: latitude coordinate in degrees
+      - longitude: longitude coordinate in degrees
+      - time: timestamp in which the geo-location is recorded
+      - nickname: anonymous nickname of the participant
   
 
   
