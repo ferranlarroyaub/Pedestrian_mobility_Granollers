@@ -42,3 +42,11 @@ The data in the repository [1] consist of three folders containing the original 
       - Lunch (code: M). Explore and choose a place to lay out the carpet and sit down to eat/snack.
       - Celebration toast (code: C). Explore and choose a place to celebrate a special occasion with a champagne toast.
       - Celebration confetti (code CC). Explore and choose a place to celebrate a special occasion by shooting the confetti gun
+
+
+
+
+Regarding the code, there are several Python Notebooks that reproduce the mobility results and figures. All the notebooks contain a detailed description of the code and of the study.
+
+  - Data Processing and Cleaning.ipynb:  Contains the detailed explanation of the data filtering in which we remove the noisy records at the beginning/end of the route and also those records outside the limits of the neighborhood. This Notebook also contains the functions to compute the time difference between consecutive timestamps $\Delta (t)$, the distance between consecutive GPS locations d(t) and the corresponding instantaneous velocity v(t). The study of the stops is also included (test to decide the threshold of $\Delta_{c}=10s$ to label each record as stop or moving. 
+
