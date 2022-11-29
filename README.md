@@ -26,10 +26,10 @@ The data in the repository [1] consist of three folders containing the original 
   
 2. The folder "processed data" contains the processed and cleaned data (a .csv file for each participanting group, with the same file-name as the raw data but adding the suffix "processed" to each .csv file. The data is reduced to 2,981 GPS locations. 4 new columns are added corresponding to the time increment, the instantaneous velocity, the distance between GPS records and the label of each record as "stop" (if is stopped) or "flight" (if it is moving).
 
- - $\Delta t$: time difference between consecutive records in seconds (computed in advance: $\Delta t (i) = t(i+1) - t(i)$. So the last element is NaN).
- - d: distance between consecutive GPS records in metres (computed in advance, so the last element is NaN).
- - v: instantaneous velcocity of each record in metres/second (distance over time difference). Again, the last element is NaN.
- - stops: string indicating if the record at position "i" is stopped ("stop") or moving ("flight"). 
+       - $\Delta t$: time difference between consecutive records in seconds (computed in advance: $\Delta t (i) = t(i+1) - t(i)$. So the last element is NaN).
+       - d: distance between consecutive GPS records in metres (computed in advance, so the last element is NaN).
+       - v: instantaneous velcocity of each record in metres/second (distance over time difference). Again, the last element is NaN.
+       - stops: string indicating if the record at position "i" is stopped ("stop") or moving ("flight"). 
 
 3. The folder "stops" contains 19 csv-files for each participating group, containing information of the stops due to the missions that the groups had to complete. The files include 4 columns with the code of the mission, the latitude and the longitude of the mission location and the duration of the action in seconds. The list of missions is:
 
