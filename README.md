@@ -33,9 +33,9 @@ The data in the repository [1] consist of three folders containing the original 
 
 3. The folder "stops" contains 19 csv-files for each participating group, containing information of the stops due to the missions that the groups had to complete. The files include 4 columns with the code of the mission, the latitude and the longitude of the mission location and the duration of the action in seconds. The list of missions is:
 
-  - Dance (code: B). Explore and choose a place to dance using the speaker via Bluetooth.
-  - Play (code: J). Explore and choose a place to play with the ball.
-  - Chat (code: X). Explore and choose a place to sit and share personal neighborhood stories.
-  - Lunch (code: M). Explore and choose a place to lay out the carpet and sit down to eat/snack.
-  - Celebration toast (code: C). Explore and choose a place to celebrate a special occasion with a champagne toast.
-  - Celebration confetti (code CC). Explore and choose a place to celebrate a special occasion by shooting the confetti gun
+    - Dance (code: B). Explore and choose a place to dance using the speaker via Bluetooth.
+    - Play (code: J). Explore and choose a place to play with the ball.
+    - Chat (code: X). Explore and choose a place to sit and share personal neighborhood stories.
+    - Lunch (code: M). Explore and choose a place to lay out the carpet and sit down to eat/snack.
+    - Celebration toast (code: C). Explore and choose a place to celebrate a special occasion with a champagne toast.
+    - Celebration confetti (code CC). Explore and choose a place to celebrate a special occasion by shooting the confetti gun
