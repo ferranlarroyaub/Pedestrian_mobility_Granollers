@@ -1,6 +1,6 @@
 # Pedestrian mobility experiment in Granollers (Spain)
 
-This repository contains the code used to study the mobility data in [1] used for the scientific publication. The data was collected through a citizen science experiment 
+This repository contains the code used to study the mobility data in [1] used for the Data Descriptor and Scientific publications [3][4]. The data was collected through a citizen science experiment 
 in which participated 19 groups of 3-5 people (72 people in total) from three different communities in the small neighborhood of "Primer de Maig" in Granollers city (Spain). The participating groups tracked their journey using a tablet device and the Wikiloc [2] app., while walking and exploring the neighborhood and completing a set of missions (e.g.: "Find a place to play the ball with your group"). The trajectories and the chosen locations by the participants have a strong urbanistic interest for the researchers (specially for the designers and architects) in order to improve urban furniture and activate the neighborhood and identify possible intervention areas. The participants have different socio-demographic profiles and most of them live in the neighborhood or know it well. The three communities involved were a public School, with 7 groups of students (11-12 years old) and their teachers (4 groups), with a total number of 41 participants and 11 groups. The association of neigbhors (with families) and a senior citizen's organization (more than 65 years old). There were 31 participants distributed in 8 groups from this two communities.
  
 The experiment took place on April, 2022. The groups from the school performed the experiment on Friday, 29th April and the other groups on Saturday, 30th April under the same experimental protocol and conditions.
@@ -39,7 +39,24 @@ The data in the repository [1] consist of three folders containing the original 
 
 
 
-Regarding the code, there are several Python Notebooks that reproduce the mobility results and figures. All the notebooks contain a detailed description of the code and of the study.
+Regarding the code, there are several Python Notebooks that reproduce the mobility results and figures of the manuscripts [3] and [4]. All the notebooks contain a detailed description of the code and of the study.
 
-  - Data Processing and Cleaning.ipynb:  Contains the detailed explanation of the data filtering in which we remove the noisy records at the beginning/end of the route and also those records outside the limits of the neighborhood. This Notebook also contains the functions to compute the time difference between consecutive timestamps $\Delta (t)$, the distance between consecutive GPS locations d(t) and the corresponding instantaneous velocity v(t). The study of the stops is also included (test to decide the threshold of $\Delta_{c}=10s$ to label each record as stop or moving. 
+  - Data Processing and Cleaning.ipynb:  Contains the detailed explanation of the data filtering in which we remove the noisy records at the beginning/end of the route and also those records outside the limits of the neighborhood. This Notebook also contains the functions to compute the time difference between consecutive timestamps $\Delta (t)$, the distance between consecutive GPS locations d(t) and the corresponding instantaneous velocity v(t). The study of the stops is also included (test to decide the threshold of $\Delta_{c}=10s$ to label each record as stop or moving.
 
+  - Statistics.ipynb:  Contains some statistics of the GPS trajectories, for each group and for the aggregatte of all trajectories. In particular, we compute the total amount of spent time, the total distance covered, the radious of gyration, the stops duration, the orientation and the reorientation process.
+
+  - Cartography. Opportunity Units (OUs).ipynb: In this notebook, we study the 8 pre-defined opportunity units obtaines by the expert urban planners in their cartographies. We compare the citizen sciene mobility data (in particular, the locations of the stops in which the participants performed the actions) with the opportunity areas. Furthermore, we cross the results of the clustering results with the OUs (in other words, how many stops they share).
+
+  - Weighted K-means clustering.ipynb:  Here we apply the well-known and classic K-Means Clustering Algorithm (weighted with the stops duration) to group the stops data in k=7 activation clusters. We check with several tests that k=7 is the optimal number of clusters. We also check that using the weighted or unweighted version of the algorithm does not affect the results of the clustering.
+
+  - DBSCAN Algorithm.ipynb: Finally, in this notebook we use a density-based clustering algorithm in order to check other algorithms beyond K-means. We found worse results and a high dependence on input parameters.
+
+
+
+[1] Larroya, F. & Perelló, J. Explorative pedestrian mobility GPS data from a citizen science experiment in a neighbourhood. CORA. Repositori de Dades de Recerca https://doi.org/10.34810/data898 (2023).
+
+[2] https://www.wikiloc.com/
+
+[3] Larroya, F., Paez, R., Valtchanova, M. & Perelló. Explorative pedestrian mobility GPS data from a citizen science experiment in a neighbourhood. arXiv preprint arXiv:2410.08672 (2024). https://doi.org/10.48550/arXiv.2410.08672
+
+[4]
